@@ -1,0 +1,476 @@
+﻿Build started 2016/10/8 13:58:29.
+     1>Project "D:\Program\ENFT\ENFT\ENFT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\ENFT.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IZ:\Graphics\glut\include /IZ:\Graphics\glew\include /IZ:\CVD\include /I"Z:\Math\Numerical\clapack-3.2.1-CMAKE\include" /I"Z:\Math\Numerical\levmar-2.6\include" /I.\FeatureTracking /I.\TrackMatching /I.\ProgramGL /I.\Sequence /I.\SequenceSet /I.\SfM /I.\Estimation /I.\Optimization /I.\LinearAlgebra /I.\Clustering /I.\Utility /I.\Viewing /I.\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\ENFT.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt SequenceSet\SequenceSetDataAssociation.cpp TrackMatching\TrackMatcher.cpp
+         SequenceSetDataAssociation.cpp
+     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\SfM\IntrinsicMatrix.h(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\SfM\IntrinsicMatrix.h(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\IntrinsicMatrix.h(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\SimilarityTransformation.h(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\SimilarityTransformation.h(268): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\Match.h(406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\Match.h(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\CameraEstimatorData.h(201): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\CameraEstimatorData.h(212): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         TrackMatcher.cpp
+     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\SfM\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\SfM\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>Z:\CVD\include\cvd/internal/win.h(5): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(197) : see previous definition of '_WIN32_WINNT'
+     1>D:\Program\ENFT\ENFT\Viewing\Viewer.h(57): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\Viewing\Viewer.h(70): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\Viewing\Viewer.h(83): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\Viewing\Viewer.h(96): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\Viewing\Viewer.h(109): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\Viewing\Viewer.h(121): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\SfM\IntrinsicMatrix.h(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>D:\Program\ENFT\ENFT\SfM\IntrinsicMatrix.h(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\IntrinsicMatrix.h(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\SimilarityTransformation.h(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\SimilarityTransformation.h(268): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\Match.h(406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\Match.h(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\CameraEstimatorData.h(201): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\SfM\CameraEstimatorData.h(212): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(37): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(43): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(45): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(46): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(87): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(89): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(130): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>D:\Program\ENFT\ENFT\Utility\Configurator.h(131): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(17): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(41): warning C4267: 'initializing' : conversion from 'size_t' to 'const int', possible loss of data
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(88): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(117): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(245): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(247): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(250): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(251): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(252): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\Utility\Utility.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\Program\ENFT\ENFT\SfM\FundamentalMatrix.h(150): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>TrackMatching\TrackMatcher.cpp(344): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>TrackMatching\TrackMatcher.cpp(520): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Z:\CVD\include\cvd/internal/aligned_mem.h(102): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 Z:\CVD\include\CVD/image.h(756) : see reference to function template instantiation 'T *CVD::Internal::aligned_alloc<T>(size_t,size_t)' being compiled
+                 with
+                 [
+                     T=CVD::Rgba<unsigned char>
+                 ]
+                 Z:\CVD\include\CVD/image.h(739) : while compiling class template member function 'CVD::Image<T>::Image(const CVD::ImageRef &)'
+                 with
+                 [
+                     T=CVD::Rgba<unsigned char>
+                 ]
+                 d:\program\enft\enft\viewing\Viewer.h(188) : see reference to class template instantiation 'CVD::Image<T>' being compiled
+                 with
+                 [
+                     T=CVD::Rgba<unsigned char>
+                 ]
+     1>Z:\CVD\include\cvd/internal/aligned_mem.h(102): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 Z:\CVD\include\CVD/image.h(756) : see reference to function template instantiation 'T *CVD::Internal::aligned_alloc<T>(size_t,size_t)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 Z:\CVD\include\CVD/image.h(739) : while compiling class template member function 'CVD::Image<T>::Image(const CVD::ImageRef &)'
+                 with
+                 [
+                     T=float
+                 ]
+                 d:\program\enft\enft\trackmatching\TrackMatcher.h(180) : see reference to class template instantiation 'CVD::Image<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>Z:\CVD\include\cvd/internal/aligned_mem.h(102): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 Z:\CVD\include\CVD/image.h(756) : see reference to function template instantiation 'T *CVD::Internal::aligned_alloc<T>(size_t,size_t)' being compiled
+                 with
+                 [
+                     T=ushort
+                 ]
+                 Z:\CVD\include\CVD/image.h(739) : while compiling class template member function 'CVD::Image<T>::Image(const CVD::ImageRef &)'
+                 with
+                 [
+                     T=ushort
+                 ]
+                 d:\program\enft\enft\trackmatching\TrackMatcher.h(181) : see reference to class template instantiation 'CVD::Image<T>' being compiled
+                 with
+                 [
+                     T=ushort
+                 ]
+     1>D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(163): warning C4267: 'initializing' : conversion from 'size_t' to 'uint', possible loss of data
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(247) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<const _Ty&,unsigned __int64>(_Other1,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty1=uint,
+                     _Ty2=uint,
+                     _Ty=uint,
+                     _Other1=const uint &,
+                     _Other2=unsigned __int64
+                 ]
+                 d:\program\enft\enft\utility\SparseVector.h(75) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<const uint&,unsigned __int64>(_Other1,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty1=uint,
+                     _Ty2=uint,
+                     _Other1=const uint &,
+                     _Other2=unsigned __int64
+                 ]
+                 d:\program\enft\enft\utility\SparseVector.h(71) : while compiling class template member function 'float *SparseVector<TYPE>::Insert(const uint &,const TYPE &)'
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 D:\Program\ENFT\ENFT\Utility\SparseMatrix.h(28) : see reference to class template instantiation 'SparseVector<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 D:\Program\ENFT\ENFT\Utility\SparseMatrix.h(24) : while compiling class template member function 'const float *SparseMatrix<TYPE>::Get(const uint &,const uint &) const'
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 d:\program\enft\enft\trackmatching\MatchingMatrix.h(83) : see reference to class template instantiation 'SparseMatrix<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+     1>Z:\CVD\include\cvd/internal/aligned_mem.h(102): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 Z:\CVD\include\CVD/image.h(756) : see reference to function template instantiation 'T *CVD::Internal::aligned_alloc<T>(size_t,size_t)' being compiled
+                 with
+                 [
+                     T=CVD::Rgb<CVD::byte>
+                 ]
+                 Z:\CVD\include\CVD/image.h(739) : while compiling class template member function 'CVD::Image<T>::Image(const CVD::ImageRef &)'
+                 with
+                 [
+                     T=CVD::Rgb<CVD::byte>
+                 ]
+                 Z:\CVD\include\cvd/internal/load_and_save.h(313) : see reference to class template instantiation 'CVD::Image<T>' being compiled
+                 with
+                 [
+                     T=CVD::Rgb<CVD::byte>
+                 ]
+                 Z:\CVD\include\cvd/internal/load_and_save.h(311) : while compiling class template member function 'void CVD::Internal::maybe_process_and_write<Pixel,ImageWriter,OutgoingPixel>::write(std::ostream &,const CVD::SubImage<T> &,const std::map<_Kty,_Ty> &)'
+                 with
+                 [
+                     Pixel=CVD::Rgba<unsigned char>,
+                     ImageWriter=CVD::PNM::Writer,
+                     OutgoingPixel=CVD::Rgb<CVD::byte>,
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+                 Z:\CVD\include\cvd/internal/load_and_save.h(348) : see reference to class template instantiation 'CVD::Internal::maybe_process_and_write<Pixel,ImageWriter,OutgoingPixel>' being compiled
+                 with
+                 [
+                     Pixel=CVD::Rgba<unsigned char>,
+                     ImageWriter=CVD::PNM::Writer,
+                     OutgoingPixel=CVD::Rgb<CVD::byte>
+                 ]
+                 Z:\CVD\include\CVD/image_io.h(299) : see reference to function template instantiation 'void CVD::Internal::writeImage<PixelType,CVD::PNM::Writer>(const CVD::SubImage<T> &,std::ostream &,const std::map<_Kty,_Ty> &)' being compiled
+                 with
+                 [
+                     PixelType=CVD::Rgba<unsigned char>,
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+                 Z:\CVD\include\CVD/image_io.h(331) : see reference to function template instantiation 'void CVD::img_save<T>(const CVD::BasicImage<T> &,std::ostream &,CVD::ImageType::ImageType,const std::map<_Kty,_Ty> &)' being compiled
+                 with
+                 [
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+                 Z:\CVD\include\CVD/image_io.h(336) : see reference to function template instantiation 'void CVD::img_save<T>(const CVD::BasicImage<T> &,const std::string &,CVD::ImageType::ImageType,CVD::ImageType::ImageType,const std::map<_Kty,_Ty> &)' being compiled
+                 with
+                 [
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+                 d:\program\enft\enft\viewing\Viewer.h(191) : see reference to function template instantiation 'void CVD::img_save<T>(const CVD::BasicImage<T> &,const std::string &,const std::map<_Kty,_Ty> &)' being compiled
+                 with
+                 [
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+     1>Z:\CVD\include\cvd/internal/aligned_mem.h(102): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 Z:\CVD\include\CVD/image.h(756) : see reference to function template instantiation 'T *CVD::Internal::aligned_alloc<T>(size_t,size_t)' being compiled
+                 with
+                 [
+                     T=CVD::TEXT::writer::Outgoing<CVD::Rgba<unsigned char>>::type
+                 ]
+                 Z:\CVD\include\CVD/image.h(739) : while compiling class template member function 'CVD::Image<T>::Image(const CVD::ImageRef &)'
+                 with
+                 [
+                     T=CVD::TEXT::writer::Outgoing<CVD::Rgba<unsigned char>>::type
+                 ]
+                 Z:\CVD\include\cvd/internal/load_and_save.h(313) : see reference to class template instantiation 'CVD::Image<T>' being compiled
+                 with
+                 [
+                     T=CVD::TEXT::writer::Outgoing<CVD::Rgba<unsigned char>>::type
+                 ]
+                 Z:\CVD\include\cvd/internal/load_and_save.h(311) : while compiling class template member function 'void CVD::Internal::maybe_process_and_write<Pixel,ImageWriter,OutgoingPixel>::write(std::ostream &,const CVD::SubImage<T> &,const std::map<_Kty,_Ty> &)'
+                 with
+                 [
+                     Pixel=CVD::Rgba<unsigned char>,
+                     ImageWriter=CVD::TEXT::writer,
+                     OutgoingPixel=CVD::TEXT::writer::Outgoing<CVD::Rgba<unsigned char>>::type,
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+                 Z:\CVD\include\cvd/internal/load_and_save.h(348) : see reference to class template instantiation 'CVD::Internal::maybe_process_and_write<Pixel,ImageWriter,OutgoingPixel>' being compiled
+                 with
+                 [
+                     Pixel=CVD::Rgba<unsigned char>,
+                     ImageWriter=CVD::TEXT::writer,
+                     OutgoingPixel=CVD::TEXT::writer::Outgoing<CVD::Rgba<unsigned char>>::type
+                 ]
+                 Z:\CVD\include\CVD/image_io.h(311) : see reference to function template instantiation 'void CVD::Internal::writeImage<PixelType,CVD::TEXT::writer>(const CVD::SubImage<T> &,std::ostream &,const std::map<_Kty,_Ty> &)' being compiled
+                 with
+                 [
+                     PixelType=CVD::Rgba<unsigned char>,
+                     T=CVD::Rgba<unsigned char>,
+                     _Kty=std::string,
+                     _Ty=CVD::Parameter<void>
+                 ]
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\ENFT\x64\Release\ENFT.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ENFT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program\ENFT\x64\Release\ENFT.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\ENFT\x64\Release\ENFT.lib" /MACHINE:X64 x64\Release\ENFT.obj
+         x64\Release\FeatureExtractorSift.obj
+         x64\Release\FeatureTracker.obj
+         x64\Release\FeatureTrackerEnft.obj
+         x64\Release\FeatureTrackerFlowVoting.obj
+         x64\Release\FeatureTrackerIO.obj
+         x64\Release\FeatureTrackerSift.obj
+         x64\Release\Matrix11.obj
+         x64\Release\Matrix3.obj
+         x64\Release\Matrix4.obj
+         x64\Release\Matrix5.obj
+         x64\Release\Matrix6.obj
+         x64\Release\Matrix7.obj
+         x64\Release\Matrix8.obj
+         x64\Release\MatrixMxN.obj
+         x64\Release\ProgramGL.obj
+         x64\Release\SequenceSet.obj
+         x64\Release\SequenceSetDataAssociation.obj
+         x64\Release\SequenceSetFrame.obj
+         x64\Release\SequenceSetIO.obj
+         x64\Release\SequenceSetMeasurement.obj
+         x64\Release\SequenceSetTrack.obj
+         x64\Release\Sequence.obj
+         x64\Release\SequenceDataAssociation.obj
+         x64\Release\SequenceFrame.obj
+         x64\Release\SequenceIO.obj
+         x64\Release\SequenceMeasurement.obj
+         x64\Release\SequenceSynthesis.obj
+         x64\Release\SequenceTag.obj
+         x64\Release\SequenceTrack.obj
+         x64\Release\SequenceTransformation.obj
+         x64\Release\AbsoluteQuadricEstimator.obj
+         x64\Release\CameraArrayEPnP.obj
+         x64\Release\CameraEPnP.obj
+         x64\Release\EssentialMatrix.obj
+         x64\Release\EssentialMatrixFivePointAlgorithm.obj
+         x64\Release\FundamentalMatrix.obj
+         x64\Release\FundamentalMatrixEightPointAlgorithm.obj
+         x64\Release\Homography.obj
+         x64\Release\HomographySolver.obj
+         x64\Release\PlaneSolver.obj
+         x64\Release\Point3DSolver.obj
+         x64\Release\ProjectiveMatrix.obj
+         x64\Release\ProjectiveMatrixSolver.obj
+         x64\Release\RelativeTranslationSolver.obj
+         x64\Release\RigidTransformationSolver.obj
+         x64\Release\RotationTransformationSolver.obj
+         x64\Release\SimilarityTransformationSolver.obj
+         x64\Release\TranslationSolver.obj
+         x64\Release\stdafx.obj
+         x64\Release\MatchingMatrix.obj
+         x64\Release\TrackMatcher.obj
+         x64\Release\TrackMatcherClustering.obj
+         x64\Release\TrackMatcherEnft.obj
+         x64\Release\TrackMatcherIO.obj
+         x64\Release\TrackMatchingFeatureMatching.obj
+         x64\Release\Polynomial.obj
+         x64\Release\Random.obj
+         x64\Release\ViewerSequence.obj
+         x64\Release\ViewerSequenceSet.obj
+            Creating library D:\Program\ENFT\x64\Release\ENFT.lib and object D:\Program\ENFT\x64\Release\ENFT.exp
+         Generating code
+         Finished generating code
+     1>libcvd_r_vc10_x64.lib(jerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jerror.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdmarker.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdmarker.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdapimin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdapimin.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcapimin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcapimin.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdapistd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdapistd.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcapistd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcapistd.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcparam.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcparam.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcomapi.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcomapi.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jutils.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdinput.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdinput.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jmemmgr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jmemmgr.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcmarker.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcmarker.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdmaster.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdmaster.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcinit.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcinit.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jmemansi.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jmemansi.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdhuff.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdhuff.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jquant1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jquant1.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jddctmgr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jddctmgr.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdsample.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdsample.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdphuff.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdphuff.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdcolor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdcolor.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdcoefct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdcoefct.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jquant2.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jquant2.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdmerge.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdmerge.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdmainct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdmainct.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jdpostct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jdpostct.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jccolor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jccolor.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcmainct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcmainct.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcmaster.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcmaster.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jccoefct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jccoefct.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcprepct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcprepct.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcdctmgr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcdctmgr.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcsample.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcsample.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jcphuff.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jcphuff.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jchuff.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jchuff.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jidctred.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jidctred.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jidctflt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jidctflt.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jidctfst.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jidctfst.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jidctint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jidctint.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jfdctflt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jfdctflt.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jfdctint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jfdctint.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+     1>libcvd_r_vc10_x64.lib(jfdctfst.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libcvd_r_vc10_x64.lib(jfdctfst.obj)' or at 'D:\Program\ENFT\x64\Release\vc100.pdb'; linking object as if no debug info
+         ENFT.vcxproj -> D:\Program\ENFT\x64\Release\ENFT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Program\ENFT\x64\Release\ENFT.exe;#1" /manifest x64\Release\ENFT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\ENFT.unsuccessfulbuild".
+         Touching "x64\Release\ENFT.lastbuildstate".
+     1>Done Building Project "D:\Program\ENFT\ENFT\ENFT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.29
