@@ -20,6 +20,8 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 * [CLAPACK](http://www.netlib.org/clapack/)
 * [LEVMAR](http://www.ics.forth.gr/~lourakis/levmar/)
 
-##3. Installation and usage
+##3. Installation & usage
 
 The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libararies built by VS2010 in `ENFT/lib/`. 
+
+
