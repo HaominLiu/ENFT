@@ -41,6 +41,6 @@ The program entry is in `ENFT/ENFT.cpp`:
 		return 0;
 	}
 	
-Inputs are two video sequences, each is specified by the starting image file name `imgFileName`, and three indeces `start`, `step` and `stop` specifying which images need to be proceeds. In this example, the first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`.
+Inputs are two video sequences. A video is specified by a starting image file name `imgFileName`, and three indeces `start`, `step` and `stop` indicating which images the sequence consist of. In this example, the first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`.
 
 
