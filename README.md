@@ -24,6 +24,8 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 
 The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libararies built by VS2010 in `lib/`.
 
+The program entry is in `ENFT/ENFT.cpp`:
+
 	int _tmain(int argc, _TCHAR* argv[])
 	{
 		std::vector<Video> videos(2);
