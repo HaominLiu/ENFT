@@ -22,7 +22,7 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 
 ##3. Installation & usage
 
-The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libararies built by VS2010 in `lib/`.
+The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libraries built by VS2010 in `lib/`.
 
 The program entry is in `ENFT/ENFT.cpp`:
 
@@ -40,6 +40,7 @@ The program entry is in `ENFT/ENFT.cpp`:
 		Run(videos, ".\\param\\", "..\\data\\result.txt");
 		return 0;
 	}
-}
+	
+Inputs are two video sequences, each is specified by the starting image file name `imgFileName`, and three indeces `start`, `step` and `stop` specifying which images need to be proceeds. In this example, the first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`.
 
 
