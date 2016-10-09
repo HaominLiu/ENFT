@@ -1,6 +1,6 @@
 # ENFT
 
-ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a method to find feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide our GPU implementation using GLSL. We build the project using VS2010 under Windows 7.
+ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a method to find feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide our GPU implementation using GLSL. 
 
 ###Related Publications:
 
@@ -20,4 +20,6 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 * [CLAPACK](http://www.netlib.org/clapack/)
 * [LEVMAR](http://www.ics.forth.gr/~lourakis/levmar/)
 
-##3. Building & Running
+##3. Installation and usage
+
+The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libararies built by VS2010 in `ENFT/lib/`. 
