@@ -8,10 +8,13 @@ Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao
 
 This source only provides feature tracking. The whole executable SfM system can be found at http://www.zjucvg.net/ls-acts/ls-acts.html.
 
-#1. License
+##1. License
 
 ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). **It is for non-commercial research and educational use ONLY. Not for reproduction, distribution or commercial use.** If you use this executable for your academic publication, please acknowledge our work.
 
-#2. Dependencies
+##2. Dependencies
 
-#3. Building & Running
+* Item glut
+* Item glew
+
+##3. Building & Running
