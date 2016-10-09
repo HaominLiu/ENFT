@@ -16,8 +16,8 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 
 * [GLUT]
 * [GLEW]
-* [CVD]
-* [LAPACK]
-* [LEVMAR]
+* [CVD](https://www.edwardrosten.com/cvd/)
+* [CLAPACK](http://www.netlib.org/clapack/)
+* [LEVMAR](http://www.ics.forth.gr/~lourakis/levmar/)
 
 ##3. Building & Running
