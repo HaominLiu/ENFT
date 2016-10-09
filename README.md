@@ -14,7 +14,7 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 
 ##2. Dependencies
 
-* Item glut
-* Item glew
+* Item 1
+* Item 2
 
 ##3. Building & Running
