@@ -28,16 +28,16 @@ The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 
 	int _tmain(int argc, _TCHAR* argv[])
 	{
-		std::vector<Video> videos(2);
-		videos[0].imgFileName = "..\\data\\0000.jpg";
-		videos[0].start = 0;
-		videos[0].step = 1;
-		videos[0].end = 150;
-		videos[1].imgFileName = "..\\data\\0000.jpg";
-		videos[1].start = 150;
-		videos[1].step = 1;
-		videos[1].end = 258;
-		Run(videos, ".\\param\\", "..\\data\\result.txt");
+		std::vector<Video> videos(2);		
+		videos[0].imgFileName = "..\\data\\0000.jpg";		
+		videos[0].start = 0;		
+		videos[0].step = 1;		
+		videos[0].end = 150;		
+		videos[1].imgFileName = "..\\data\\0000.jpg";		
+		videos[1].start = 150;		
+		videos[1].step = 1;		
+		videos[1].end = 258;		
+		Run(videos, ".\\param\\", "..\\data\\result.txt");		
 		return 0;
 	}
 	
