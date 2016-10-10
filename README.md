@@ -38,6 +38,7 @@ The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 		videos[1].step = 2;
 		videos[1].end = 100;
 		RunENFT(videos, "./param/", "../data/result.txt");
+		return 0;
 	}
 	
 We call `RunENFT` to run the algorithm:
