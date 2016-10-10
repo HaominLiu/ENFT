@@ -1,6 +1,6 @@
 # ENFT
 
-ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a method to find feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide our GPU implementation using GLSL. 
+ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a method to find feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide our GPU implementation. 
 
 ###Related Publications:
 
