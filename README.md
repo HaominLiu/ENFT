@@ -45,7 +45,7 @@ We call `RunENFT` to run the algorithm:
 
 	void Run(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
 	
-`Video` is a struct specifying the input sequence.
+`Video` is a struct specifying the input video sequence.
 
 	struct Video
 	{
@@ -53,6 +53,5 @@ We call `RunENFT` to run the algorithm:
 		int start, step, stop;
 	} Video;
 
-In the example, inputs are two video sequences. The first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`.
-
+In the example, inputs are two video sequences. The first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third parameter `outputFileName` specifies the output file saving the feature tracking result. The file 
 
