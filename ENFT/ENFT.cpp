@@ -6,19 +6,13 @@
 #include "TrackMatcher.h"
 #include "ViewerSequenceSet.h"
 
-#include "Z:/Graphics/glut/lib/link.h"
-#include "Z:/Graphics/glew/lib/link.h"
-#include "Z:/CVD/lib/link.h"
-#include "Z:/Math/Numerical/clapack-3.2.1-CMAKE/lib/link.h"
-#include "Z:/Math/Numerical/levmar-2.6/lib/link.h"
-
 typedef struct Video
 {
 	const char *imgFileName;
 	int start, step, end;
 } Video;
 
-void Run(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName, const bool view = false)
+void RunENFT(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName, const bool view = false)
 {
 	SequenceSet Vs;
 	Vs.SetDirectory("");
@@ -81,15 +75,15 @@ void Run(const std::vector<Video> &videos, const char *paramDir, const char *out
 int _tmain(int argc, _TCHAR* argv[])
 {
 	std::vector<Video> videos(2);
-	videos[0].imgFileName = "..\\data\\0000.jpg";
-	videos[0].start = 0;
-	videos[0].step = 1;
+	videos[0].imgFileName = "../data/0/0000.jpg";
+	videos[0].start = 10;
+	videos[0].step = 2;
 	videos[0].end = 150;
-	videos[1].imgFileName = "..\\data\\0000.jpg";
-	videos[1].start = 150;
-	videos[1].step = 1;
-	videos[1].end = 258;
-	Run(videos, ".\\param\\", "..\\data\\result.txt");
+	videos[1].imgFileName = "../data/1/0000.jpg";
+	videos[1].start = 0;
+	videos[1].step = 2;
+	videos[1].end = 100;
+	RunENFT(videos, "./param/", "../data/result.txt");
 	return 0;
 }
 

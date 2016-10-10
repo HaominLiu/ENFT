@@ -1,4 +1,4 @@
-﻿Build started 2016/10/9 13:47:27.
+﻿Build started 2016/10/10 10:05:09.
      1>Project "D:\Program\ENFT\ENFT\ENFT.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\ENFT.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -216,7 +216,7 @@
                      _Ty=CVD::Parameter<void>
                  ]
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\ENFT\x64\Release\ENFT.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ENFT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program\ENFT\x64\Release\ENFT.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\ENFT\x64\Release\ENFT.lib" /MACHINE:X64 x64\Release\ENFT.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\ENFT\x64\Release\ENFT.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib glut32.lib glew32.lib libcvd_r_vc10_x64.lib blas_r_vc10_x64.lib lapack_r_vc10_x64.lib libf2c_r_vc10_x64.lib levmar_r_vc10_x64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ENFT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program\ENFT\x64\Release\ENFT.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\ENFT\x64\Release\ENFT.lib" /MACHINE:X64 x64\Release\ENFT.obj
          x64\Release\FeatureExtractorSift.obj
          x64\Release\FeatureTracker.obj
          x64\Release\FeatureTrackerEnft.obj
@@ -331,4 +331,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:21.06
+Time Elapsed 00:00:18.42
