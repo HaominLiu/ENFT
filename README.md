@@ -28,22 +28,21 @@ The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 
 	int _tmain(int argc, _TCHAR* argv[])
 	{
-		std::vector<Video> videos(2);		
-		videos[0].imgFileName = "..\\data\\0000.jpg";		
-		videos[0].start = 0;		
-		videos[0].step = 1;		
-		videos[0].end = 150;		
-		videos[1].imgFileName = "..\\data\\0000.jpg";		
-		videos[1].start = 150;		
-		videos[1].step = 1;		
-		videos[1].end = 258;		
-		Run(videos, ".\\param\\", "..\\data\\result.txt");		
-		return 0;
+		std::vector<Video> videos(2);
+		videos[0].imgFileName = "../data/0/0000.jpg";
+		videos[0].start = 10;
+		videos[0].step = 2;
+		videos[0].end = 150;
+		videos[1].imgFileName = "../data/1/0000.jpg";
+		videos[1].start = 0;
+		videos[1].step = 2;
+		videos[1].end = 100;
+		RunENFT(videos, "./param/", "../data/result.txt");
 	}
 	
 We call `RunENFT` to run the algorithm:
 
-	void Run(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
+	void RunENFT(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
 	
 `Video` is a struct specifying the input video sequence.
 
@@ -53,5 +52,5 @@ We call `RunENFT` to run the algorithm:
 		int start, step, stop;
 	} Video;
 
-In the example, inputs are two video sequences. The first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third parameter `outputFileName` specifies the output file saving the feature tracking result. The output file containts multiple lines, one feature track for each line. Each line starts with an integer N, followed by N feature correspondences. Each correspondence is defined by `(iSeq, iFrm, x, y)`. The two integers `iSeq` and `iFrm` are respectively the index of video sequence and image frame in the sequence, and the two floats `(x, y)` is the feature location in the image.
+In the example, inputs are two video sequences. The first video sequence consists of `../data/0/0010.jpg`, `../data/0/0012.jpg`, ..., `../data/0/0150.jpg` and the second consists of `../data/1/0000.jpg`, `../data/1/0002.jpg`, ..., `../data/1/0100.jpg`. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third parameter `outputFileName` specifies the output file saving the feature tracking result. The output file containts multiple lines, one feature track for each line. Each line starts with an integer N, followed by N feature correspondences. Each correspondence is defined by `(iSeq, iFrm, x, y)`. The two integers `iSeq` and `iFrm` are respectively the index of video sequence and image frame in the sequence, and the two floats `(x, y)` is the feature location in the image.
 
