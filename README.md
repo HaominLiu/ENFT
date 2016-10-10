@@ -53,5 +53,5 @@ We call `RunENFT` to run the algorithm:
 		int start, step, stop;
 	} Video;
 
-In the example, inputs are two video sequences. The first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third parameter `outputFileName` specifies the output file saving the feature tracking result. The file 
+In the example, inputs are two video sequences. The first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third parameter `outputFileName` specifies the output file saving the feature tracking result. The output file containts multiple lines, one feature track for each line. Each line starts with an integer N, followed by N feature correspondences. Each correspondence is defined by `(iSeq, iFrm, x, y)`. The two integers `iSeq` and `iFrm` are respectively the index of video sequence and image frame in the sequence, and the two floats `(x, y)` is the feature location in the image.
 
