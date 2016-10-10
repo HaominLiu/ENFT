@@ -41,7 +41,7 @@ The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 		return 0;
 	}
 	
-We call the function named `RunENFT`
+We call `RunENFT` to run the algorithm:
 
 	void Run(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
 	
