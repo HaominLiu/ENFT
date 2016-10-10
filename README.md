@@ -41,10 +41,6 @@ The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 		return 0;
 	}
 	
-We call `RunENFT` to run the algorithm:
-
-	void RunENFT(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
-	
 `Video` is a struct specifying the input video sequence.
 
 	struct Video
@@ -53,5 +49,9 @@ We call `RunENFT` to run the algorithm:
 		int start, step, stop;
 	} Video;
 
-In the example, inputs are two video sequences. The first video sequence consists of `../data/0/0010.jpg`, `../data/0/0012.jpg`, ..., `../data/0/0150.jpg` and the second consists of `../data/1/0000.jpg`, `../data/1/0002.jpg`, ..., `../data/1/0100.jpg`. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third parameter `outputFileName` specifies the output file saving the feature tracking result. The output file containts multiple lines, one feature track for each line. Each line starts with an integer N, followed by N feature correspondences. Each correspondence is defined by `(iSeq, iFrm, x, y)`. The two integers `iSeq` and `iFrm` are respectively the index of video sequence and image frame in the sequence, and the two floats `(x, y)` is the feature location in the image.
+In this example, inputs are two video sequences. The first video sequence consists of `../data/0/0010.jpg`, `../data/0/0012.jpg`, ..., `../data/0/0150.jpg` and the second consists of `../data/1/0000.jpg`, `../data/1/0002.jpg`, ..., `../data/1/0100.jpg`. We call `RunENFT` to run the algorithm:
+
+	void RunENFT(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
+	
+The first argument is a vector of input video sequences. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third argument `outputFileName` specifies the output file saving the feature tracking result. The output file containts multiple lines, one feature track for each line. Each line starts with an integer N, followed by N feature correspondences. Each correspondence is defined by `iSeq iFrm x y`. The two integers `iSeq` and `iFrm` are respectively the index of video sequence and image frame in the sequence, and the two floats `(x, y)` is the feature location in the image.
 
