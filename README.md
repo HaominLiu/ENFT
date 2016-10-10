@@ -23,8 +23,8 @@ ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-
 ##3. Installation & usage
 
 The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libraries built by VS2010 in `lib/`.
-
-The program entry is in `ENFT/ENFT.cpp`:
+	
+The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 
 	int _tmain(int argc, _TCHAR* argv[])
 	{
@@ -41,6 +41,18 @@ The program entry is in `ENFT/ENFT.cpp`:
 		return 0;
 	}
 	
-Inputs are two video sequences. A video is specified by a starting image file name `imgFileName`, and three indeces `start`, `step` and `stop` indicating which images the sequence consist of. In this example, the first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`.
+We call the function named `RunENFT`
+
+	void Run(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
+	
+`Video` is a struct specifying the input sequence.
+
+	struct Video
+	{
+		char *imgFileName;
+		int start, step, stop;
+	} Video;
+
+In the example, inputs are two video sequences. The first video sequence consists of `0000.jpg`, `0001.jpg`, ..., `0150.jpg` and the second consists of `0150.jpg`, `0151.jpg`, ..., `0258.jpg`.
 
 
