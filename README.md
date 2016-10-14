@@ -1,6 +1,7 @@
 # ENFT
 
 **Current version**: 1.0
+
 ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature tracking method which can efficiently match feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. This source code provides an efficient GPU implementation.
 
 ###Related Publications:
