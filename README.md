@@ -1,17 +1,30 @@
 # ENFT
 
-ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a method to find feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide our GPU implementation. 
+**Current version**: 1.0
+ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature tracking method which can efficiently match feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. This source code provides an efficient GPU implementation.
 
 ###Related Publications:
 
-Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. Submitted to *IEEE Transactions on Image Processing*. [**[arXiv report](http://arxiv.org/abs/1510.08012)**][**[video](https://drive.google.com/open?id=0B82Mv44r3F25LTh3ZERTRkZMVXc)**]
+[1] Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. *IEEE Transactions on Image Processing*, accepted. DOI: 10.1109/TIP.2016.2607425. [**[arXiv report](http://arxiv.org/abs/1510.08012)**][**[video](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)**]
 
-This source only provides feature tracking. The whole executable SfM system can be found at http://www.zjucvg.net/ls-acts/ls-acts.html.
+[2] Guofeng Zhang, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Structure-from-Motion**. *European Conference on Computer Vision (ECCV)*, 2010.
+
+This source code only provides the feature tracking module. The whole executable SfM system and more datasets can be found at http://www.zjucvg.net/ls-acts/ls-acts.html.
 
 ##1. License
 
-ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). **It is for non-commercial research and educational use ONLY. Not for reproduction, distribution or commercial use.** If you use this executable for your academic publication, please acknowledge our work.
+ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). If you need a closed-source version of ENFT for commercial purposes, please contact [Guofeng Zhang](mailto:zhangguofeng@cad.zju.edu.cn).
 
+If you use this source code for your academic publication, please cite our TIP paper:
+
+	@article{
+	  title={Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion},
+	  author={Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, Hujun Bao},
+	  journal={IEEE Transactions on Image Processing},
+	  doi = {10.1109/TIP.2016.2607425},
+	  year={2016}
+	}
+	
 ##2. Dependencies
 
 * [GLUT](https://www.opengl.org/resources/libraries/glut/)
@@ -54,4 +67,3 @@ In this example, inputs are two video sequences. The first video sequence consis
 	void RunENFT(const std::vector<Video> &videos, const char *paramDir, const char *outputFileName);
 	
 The first argument is a vector of input video sequences. The second argument `paramDir` specifies a directory containing the files of all the parameters the algorithm needs. The third argument `outputFileName` specifies the output file saving the feature tracking result. The output file containts multiple lines, one feature track for each line. Each line starts with an integer N, followed by N feature correspondences. Each correspondence is defined by `iSeq iFrm x y`. The two integers `iSeq` and `iFrm` are respectively the index of video sequence and image frame in the sequence, and the two floats `(x, y)` is the feature location in the image.
-
