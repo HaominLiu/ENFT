@@ -61,6 +61,7 @@
     <None Include="param\param_trk_matching.txt">
       <Filter>param</Filter>
     </None>
+    <None Include="..\x64\Release\config.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

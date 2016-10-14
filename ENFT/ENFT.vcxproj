@@ -92,7 +92,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>Z:\Graphics\glut\include;Z:\Graphics\glew\include;Z:\CVD\include;Z:\Math\Numerical\clapack-3.2.1-CMAKE\include;Z:\Math\Numerical\levmar-2.6\include;.\FeatureTracking;.\TrackMatching;.\ProgramGL;.\Sequence;.\SequenceSet;.\SfM;.\Estimation;.\Optimization;.\LinearAlgebra;.\Clustering;.\Utility;.\Viewing;.\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include\glut;..\include\glew;..\include\CVD;..\include\clapack;..\include\levmar;.\FeatureTracking;.\TrackMatching;.\ProgramGL;.\Sequence;.\SequenceSet;.\SfM;.\Estimation;.\Optimization;.\LinearAlgebra;.\Clustering;.\Utility;.\Viewing;.\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -125,7 +125,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>Z:\Graphics\glut\include;Z:\Graphics\glew\include;Z:\CVD\include;Z:\Math\Numerical\clapack-3.2.1-CMAKE\include;Z:\Math\Numerical\levmar-2.6\include;.\FeatureTracking;.\TrackMatching;.\ProgramGL;.\Sequence;.\SequenceSet;.\SfM;.\Estimation;.\Optimization;.\LinearAlgebra;.\Clustering;.\Utility;.\Viewing;.\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include\glut;..\include\glew;..\include\CVD;..\include\clapack;..\include\levmar;.\FeatureTracking;.\TrackMatching;.\ProgramGL;.\Sequence;.\SequenceSet;.\SfM;.\Estimation;.\Optimization;.\LinearAlgebra;.\Clustering;.\Utility;.\Viewing;.\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -137,6 +137,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\x64\Release\config.txt" />
     <None Include="param\param_ftr_tracking.txt" />
     <None Include="param\param_trk_matching.txt" />
     <None Include="ReadMe.txt" />

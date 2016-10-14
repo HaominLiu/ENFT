@@ -8,7 +8,7 @@
 
 typedef struct Video
 {
-	const char *imgFileName;
+	std::string imgFileName;
 	int start, step, end;
 } Video;
 
@@ -74,16 +74,42 @@ void RunENFT(const std::vector<Video> &videos, const char *paramDir, const char 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::vector<Video> videos(2);
-	videos[0].imgFileName = "../data/0/0000.jpg";
-	videos[0].start = 10;
-	videos[0].step = 2;
-	videos[0].end = 150;
-	videos[1].imgFileName = "../data/1/0000.jpg";
-	videos[1].start = 0;
-	videos[1].step = 2;
-	videos[1].end = 100;
-	RunENFT(videos, "./param/", "../data/result.txt");
+	if(argc == 2)
+	{
+		Configurator cfgor;
+		cfgor.Load(argv[1]);
+		
+		char directive[MAX_LINE_LENGTH];
+		std::vector<Video> videos;
+		const int nVideos = cfgor.GetArgument("videos", 0);
+		videos.resize(nVideos);
+		for(int i = 0; i < nVideos; ++i)
+		{
+			Video &video = videos[i];
+			sprintf(directive, "video_%d_image", i);
+			video.imgFileName = cfgor.GetArgument(directive);
+			sprintf(directive, "video_%d_start", i);
+			video.start = cfgor.GetArgument(directive, 0);
+			sprintf(directive, "video_%d_step", i);
+			video.step = cfgor.GetArgument(directive, 0);
+			sprintf(directive, "video_%d_end", i);
+			video.end = cfgor.GetArgument(directive, 0);
+			RunENFT(videos, cfgor.GetArgument("param_directory").c_str(), cfgor.GetArgument("output_file").c_str());
+		}
+	}
+	else
+	{
+		std::vector<Video> videos(2);
+		videos[0].imgFileName = "../data/0/0000.jpg";
+		videos[0].start = 10;
+		videos[0].step = 2;
+		videos[0].end = 150;
+		videos[1].imgFileName = "../data/1/0000.jpg";
+		videos[1].start = 0;
+		videos[1].step = 2;
+		videos[1].end = 100;
+		RunENFT(videos, "./param/", "../data/result.txt");
+	}
 	return 0;
 }
 
