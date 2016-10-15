@@ -78,8 +78,11 @@ void FeatureTracker::Initialize(const Sequence &seq, const Configurator &param)
 
 	const ushort winSz = ushort(param.GetArgument("enft_patch_window_size", 9));
 	const ushort nIters = ushort(param.GetArgument("enft_max_iterations_number", 20));
-	const float lambdaEp = param.GetArgument("enft_weight_epipolar", 50.0f);
-	const float lambdaHomo = param.GetArgument("enft_weight_homography", 50.0f);
+	const float si = param.GetArgument("enft_variance_intensity", 0.01f) * winSz, s2i = si * si;
+	const float se = param.GetArgument("enft_variance_epipolar", 2.0f), s2e = se * se * seq.GetIntrinsicMatrix().one_over_fxy();
+	const float sh = param.GetArgument("enft_variance_homography", 10.0f), s2h = sh * sh * seq.GetIntrinsicMatrix().one_over_fxy();
+	const float lambdaEp = s2i / s2e;
+	const float lambdaHomo = s2i / s2h;
 	const float deltaTh = param.GetArgument("enft_offset_threshold", 0.01f);
 	const float SADTh = param.GetArgument("enft_intensity_error_threshold", 0.01f) * winSz * winSz;
 	m_maxNumFtrs = m_siftMaxNumFtrs + m_enftMaxNumFtrs;
