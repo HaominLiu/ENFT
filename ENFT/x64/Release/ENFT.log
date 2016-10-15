@@ -1,12 +1,10 @@
-﻿Build started 2016/10/14 11:55:09.
+﻿Build started 2016/10/15 12:57:03.
      1>Project "D:\Program\ENFT\ENFT\ENFT.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\ENFT.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\include\glut /I..\include\glew /I..\include\CVD /I..\include\clapack /I..\include\levmar /I.\FeatureTracking /I.\TrackMatching /I.\ProgramGL /I.\Sequence /I.\SequenceSet /I.\SfM /I.\Estimation /I.\Optimization /I.\LinearAlgebra /I.\Clustering /I.\Utility /I.\Viewing /I.\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\ENFT.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\include\glut /I..\include\glew /I..\include\CVD /I..\include\clapack /I..\include\levmar /I.\FeatureTracking /I.\TrackMatching /I.\ProgramGL /I.\Sequence /I.\SequenceSet /I.\SfM /I.\Estimation /I.\Optimization /I.\LinearAlgebra /I.\Clustering /I.\Utility /I.\Viewing /I.\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\ENFT.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ENFT.cpp FeatureTracking\FeatureExtractorSift.cpp FeatureTracking\FeatureTracker.cpp FeatureTracking\FeatureTrackerEnft.cpp FeatureTracking\FeatureTrackerFlowVoting.cpp FeatureTracking\FeatureTrackerIO.cpp FeatureTracking\FeatureTrackerSift.cpp LinearAlgebra\Matrix11.cpp LinearAlgebra\Matrix3.cpp LinearAlgebra\Matrix4.cpp LinearAlgebra\Matrix5.cpp LinearAlgebra\Matrix6.cpp LinearAlgebra\Matrix7.cpp LinearAlgebra\Matrix8.cpp LinearAlgebra\MatrixMxN.cpp ProgramGL\ProgramGL.cpp SequenceSet\SequenceSet.cpp SequenceSet\SequenceSetDataAssociation.cpp SequenceSet\SequenceSetFrame.cpp SequenceSet\SequenceSetIO.cpp SequenceSet\SequenceSetMeasurement.cpp SequenceSet\SequenceSetTrack.cpp Sequence\Sequence.cpp Sequence\SequenceDataAssociation.cpp Sequence\SequenceFrame.cpp Sequence\SequenceIO.cpp Sequence\SequenceMeasurement.cpp Sequence\SequenceSynthesis.cpp Sequence\SequenceTag.cpp Sequence\SequenceTrack.cpp Sequence\SequenceTransformation.cpp SfM\AbsoluteQuadricEstimator.cpp SfM\CameraArrayEPnP.cpp SfM\CameraEPnP.cpp SfM\EssentialMatrix.cpp SfM\EssentialMatrixFivePointAlgorithm.cpp SfM\FundamentalMatrix.cpp SfM\FundamentalMatrixEightPointAlgorithm.cpp SfM\Homography.cpp SfM\HomographySolver.cpp SfM\PlaneSolver.cpp SfM\Point3DSolver.cpp SfM\ProjectiveMatrix.cpp SfM\ProjectiveMatrixSolver.cpp SfM\RelativeTranslationSolver.cpp SfM\RigidTransformationSolver.cpp SfM\RotationTransformationSolver.cpp SfM\SimilarityTransformationSolver.cpp SfM\TranslationSolver.cpp TrackMatching\MatchingMatrix.cpp TrackMatching\TrackMatcher.cpp TrackMatching\TrackMatcherClustering.cpp TrackMatching\TrackMatcherEnft.cpp TrackMatching\TrackMatcherIO.cpp TrackMatching\TrackMatchingFeatureMatching.cpp Utility\Polynomial.cpp Utility\Random.cpp Viewing\ViewerSequence.cpp Viewing\ViewerSequenceSet.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\include\glut /I..\include\glew /I..\include\CVD /I..\include\clapack /I..\include\levmar /I.\FeatureTracking /I.\TrackMatching /I.\ProgramGL /I.\Sequence /I.\SequenceSet /I.\SfM /I.\Estimation /I.\Optimization /I.\LinearAlgebra /I.\Clustering /I.\Utility /I.\Viewing /I.\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\ENFT.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ENFT.cpp FeatureTracking\FeatureExtractorSift.cpp FeatureTracking\FeatureTracker.cpp FeatureTracking\FeatureTrackerEnft.cpp FeatureTracking\FeatureTrackerFlowVoting.cpp FeatureTracking\FeatureTrackerIO.cpp FeatureTracking\FeatureTrackerSift.cpp LinearAlgebra\Matrix11.cpp LinearAlgebra\Matrix4.cpp LinearAlgebra\Matrix6.cpp LinearAlgebra\Matrix7.cpp LinearAlgebra\Matrix8.cpp ProgramGL\ProgramGL.cpp SequenceSet\SequenceSet.cpp SequenceSet\SequenceSetDataAssociation.cpp SequenceSet\SequenceSetFrame.cpp SequenceSet\SequenceSetIO.cpp SequenceSet\SequenceSetMeasurement.cpp SequenceSet\SequenceSetTrack.cpp Sequence\Sequence.cpp Sequence\SequenceDataAssociation.cpp Sequence\SequenceFrame.cpp Sequence\SequenceIO.cpp Sequence\SequenceMeasurement.cpp Sequence\SequenceSynthesis.cpp Sequence\SequenceTag.cpp Sequence\SequenceTrack.cpp Sequence\SequenceTransformation.cpp SfM\AbsoluteQuadricEstimator.cpp SfM\CameraArrayEPnP.cpp SfM\CameraEPnP.cpp SfM\EssentialMatrix.cpp SfM\EssentialMatrixFivePointAlgorithm.cpp SfM\FundamentalMatrix.cpp SfM\FundamentalMatrixEightPointAlgorithm.cpp SfM\Homography.cpp SfM\ProjectiveMatrix.cpp SfM\RelativeTranslationSolver.cpp SfM\RigidTransformationSolver.cpp SfM\RotationTransformationSolver.cpp TrackMatching\MatchingMatrix.cpp TrackMatching\TrackMatcher.cpp TrackMatching\TrackMatcherClustering.cpp TrackMatching\TrackMatcherEnft.cpp TrackMatching\TrackMatcherIO.cpp TrackMatching\TrackMatchingFeatureMatching.cpp Viewing\ViewerSequence.cpp Viewing\ViewerSequenceSet.cpp
          ENFT.cpp
      1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -2530,13 +2528,6 @@
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-         Matrix3.cpp
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
          Matrix4.cpp
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -2544,7 +2535,6 @@
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-         Matrix5.cpp
          Matrix6.cpp
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -2560,13 +2550,6 @@
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
          Matrix8.cpp
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-         MatrixMxN.cpp
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -2795,7 +2778,6 @@
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
      1>SequenceSet\SequenceSetIO.cpp(115): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         Compiling...
          SequenceSetMeasurement.cpp
      1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -4302,6 +4284,7 @@
                      ImageLoader=CVD::FITS::reader,
                      List=CVD::Internal::TypeList<CVD::Rgba<double>,CVD::Internal::Head>
                  ]
+         Compiling...
          SequenceDataAssociation.cpp
      1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -7854,92 +7837,6 @@
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
      1>d:\program\enft\enft\sfm\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         HomographySolver.cpp
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\SimilarityTransformation.h(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\SimilarityTransformation.h(268): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         Compiling...
-         PlaneSolver.cpp
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         Point3DSolver.cpp
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
          ProjectiveMatrix.cpp
      1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -7968,41 +7865,6 @@
      1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
      1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         ProjectiveMatrixSolver.cpp
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\linearalgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
          RelativeTranslationSolver.cpp
      1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -8111,80 +7973,7 @@
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
      1>d:\program\enft\enft\sfm\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         SimilarityTransformationSolver.cpp
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\SimilarityTransformation.h(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\SimilarityTransformation.h(268): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-         TranslationSolver.cpp
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\Point.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\IntrinsicMatrix.h(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Plane.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(454): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\RigidTransformation.h(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(420): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>d:\program\enft\enft\sfm\Match.h(548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         Compiling...
          MatchingMatrix.cpp
      1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -10777,8 +10566,6 @@
                      _Kty=std::string,
                      _Ty=CVD::Parameter<void>
                  ]
-         Polynomial.cpp
-         Random.cpp
          ViewerSequence.cpp
      1>D:\Program\ENFT\ENFT\LinearAlgebra\Matrix3.h(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
@@ -12518,4 +12305,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:48.51
+Time Elapsed 00:00:56.62
